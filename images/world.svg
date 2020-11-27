@@ -1,0 +1,310 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="654" height="645" viewBox="0 0 654 645">
+  <defs>
+    <style>
+		
+      .sc-world-10, .sc-world-2 {
+        fill: none;
+      }
+
+      .sc-world-2 {
+        stroke: #8597ff;
+        stroke-miterlimit: 10;
+      }
+
+      .sc-world-3 {
+        fill: #eaedff;
+      }
+
+      .sc-world-6, .sc-world-7 {
+        fill: #ff7379;
+      }
+
+      .sc-world-6, .sc-world-8 {
+        opacity: 0.1;
+      }
+
+      .sc-world-8, .sc-world-9 {
+        fill: #7b90d4;
+      }
+		
+
+svg{
+	animation: svg .8s ease-in 0s forwards;
+}
+@keyframes svg{
+	0%{
+		
+		opacity: 0;
+	}
+}
+
+.world{
+	opacity: .2;
+}
+.world g:last-child line:nth-last-child(2n + 2){
+	animation: worldG 1.6s ease 0s forwards;
+}
+@keyframes worldG{
+	0%{
+		transform: translateX(-150px)
+	}
+}
+
+.world g:first-child line:nth-last-child(2n + 2){
+	animation: worldV 1.6s ease 0s forwards;
+}
+@keyframes worldV{
+	0%{
+		transform: translateY(-150px)
+	}
+}
+.redRectangle{
+	animation: rooms .8s ease-in .6s forwards,
+				light 3s ease-in 0s infinite;
+	transform-origin: center;
+	transform-box: fill-box;
+	opacity: 0!important;
+}
+@keyframes rooms{
+	0%{
+		transform: scale(1.04);
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+@keyframes light{
+	50%{
+		transform: scale(1.2)
+	}
+}
+.redRectangle rect{
+	animation: unlight 3s ease-out 0s infinite;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+@keyframes unlight{
+	50%{
+		transform: scale(.7)
+	}
+}
+
+
+.blueCircle{
+	animation: rooms .8s ease-in 1s forwards;
+	transform-origin: center;
+	transform-box: fill-box;
+	opacity: 0!important;
+}
+.blueCircle path{
+	animation: subFill 24s ease 19.3s forwards;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+.subLeftCircle{
+	animation: rooms .8s ease-in .7s forwards,
+			   subFill 24s ease 7.22s forwards;
+	transform-origin: center;
+	transform-box: fill-box;
+	opacity: 0!important;
+}
+.subRightCircle{
+	animation: subRightCircle .8s ease-in .5s forwards,
+			   subFill 24s ease 2.9s forwards;
+	transform-origin: center;
+	transform-box: fill-box;
+	opacity: 0!important;
+}
+@keyframes subRightCircle{
+	0%{
+		transform: scale(1.04);
+		opacity: 0;
+	}
+	100%{
+		opacity: 0.15;
+	}
+}
+
+.subTriangle{
+	animation: subTriangle .8s ease-in .4s forwards,
+			   subFill 24s ease 11.4s forwards;
+	transform-origin: center;
+	transform-box: fill-box;
+	opacity: 0!important;
+}
+@keyframes subTriangle{
+	0%{
+		transform: scale(1.04);
+		opacity: 0;
+	}
+	100%{
+		opacity: 0.4;
+	}
+}
+@keyframes subFill{
+	2.5%,97.5%{
+		fill: #ff7379;
+		transform: scale(1.3)
+	}
+}
+
+.dustRed circle,
+.dustRed rect{
+	fill: #ff7379;
+	opacity: 0;
+}
+
+.dustRed circle{
+	animation: dustRed 18s ease-out 2s forwards;
+	transform-origin: center;
+	transform-box: fill-box
+}
+.dustRed rect{
+	animation: dustRed 17.4s ease-out 2.1s forwards;
+	transform-origin: center;
+	transform-box: fill-box
+}
+@keyframes dustRed{
+	0%{
+		opacity: 0
+	}
+	2%,6%{
+		opacity: 1;
+	}
+	8%,16%{
+		transform: translateY(-91px);
+		opacity: 0;
+	}
+	18%,30%{
+		opacity: 1;
+	}
+	32%,40%{
+		opacity: 0;
+		transform: translate(-182px,-91px);
+	}
+	42%,54%{
+		opacity: 1;
+	}
+	56%,67%{
+		opacity: 0;
+		transform: translate(-182px,91px);
+	}
+	68%{
+		opacity: 0;
+		transform: translate(0px, 0px);
+	}
+	70%,90%{
+		opacity: 1;
+	}
+	76%{
+		transform: translateX(91px);
+	}
+	84%,92%{
+		transform: translate(91px, 91px);
+	}
+	100%{
+		opacity: 0;
+		transform: translate(91px,182px);
+	}
+}
+
+
+
+.dustBlue circle,
+.dustBlue rect{
+	fill: #8597ff;
+	opacity: 0;
+}
+.dustBlue circle{
+	animation: dustBlue 2s ease-out 15s forwards;
+	transform-origin: center;
+	transform-box: fill-box
+}
+.dustBlue rect{
+	animation: dustBlue 1.4s ease-out 15.1s forwards;
+	transform-origin: center;
+	transform-box: fill-box
+}
+@keyframes dustBlue{
+	80%{
+		transform: translateY(-91px);
+		opacity: 1;
+	}
+	100%{
+		transform: translateY(-91px);
+		opacity: 0;
+	}
+}
+		
+		
+    </style>
+    
+    <rect id="rectangleRed" class="sc-world-7" x="384.18" y="249.6" width="24" height="24"/>
+    <filter id="filter_rectangleRed" x="-91.6%" y="-91.6%" width="283.2%" height="283.2%" filterUnits="objectBoundingBox">
+    	<feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+    	<feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+    	<feColorMatrix values="0 0 0 0 1   0 0 0 0 0.450980392   0 0 0 0 0.474509804  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+    </filter>
+    
+  </defs>
+
+  <g class="world">
+   <g>
+    <line class="sc-world-2" x1="531.93" y1="62.23" x2="531.93" y2="535.49"/>
+    <line class="sc-world-2" x1="441.23" y1="62.36" x2="441.23" y2="535.63"/>
+    <line class="sc-world-2" x1="350.53" y1="85.87" x2="350.53" y2="559.13"/>
+    <line class="sc-world-2" x1="259.83" y1="21.32" x2="259.83" y2="499.88"/>
+    <line class="sc-world-2" x1="169.13" y1="152.53" x2="169.13" y2="625.79"/>
+   </g>
+   <g>
+    <line class="sc-world-2" x1="506.92" y1="488.6" x2="33.66" y2="488.6"/>
+    <line class="sc-world-2" x1="578.63" y1="397.9" x2="105.37" y2="397.9"/>
+    <line class="sc-world-2" x1="633.31" y1="307.2" x2="155.05" y2="307.2"/>
+    <line class="sc-world-2" x1="578.17" y1="216.5" x2="99.62" y2="216.5"/>
+    <line class="sc-world-2" x1="499.17" y1="125.8" x2="20.62" y2="125.8"/>
+    <line class="sc-world-2" x1="611.68" y1="125.8" x2="565.91" y2="125.8"/>
+   </g>
+  </g>
+  
+  <circle class="sc-world-3 subLeftCircle" cx="213.68" cy="170.99" r="3"/>
+  <circle class="sc-world-3 subRightCircle" cx="396.18" cy="170.99" r="5.47"/>
+  <polygon class="sc-world-3 subTriangle" points="213.68 344.56 204.02 361.29 223.34 361.29 213.68 344.56"/>
+  
+  <g class="redRectangle">
+    <rect class="sc-world-6" x="373.23" y="238.65" width="45.91" height="45.91"/>    
+    <g id="Rectangle">
+        <use fill="black" fill-opacity="1" filter="url(#filter_rectangleRed)" xlink:href="#rectangleRed"></use>
+        <use fill="#FF7379" xlink:href="#rectangleRed"></use>
+    </g>
+    
+  </g>
+  
+  <g class="blueCircle">
+    <path class="sc-world-8" d="M514.33,443.26c-1.82,15.25-12.44,27.79-27.79,27.79s-28.81-12.47-27.79-27.79c1-15,9.47-28.51,24.8-27.79C499.29,416.22,516.16,428,514.33,443.26Z"/>
+    <path class="sc-world-9" d="M503.06,443.26c-1.09,9.05-7.39,16.49-16.5,16.49s-17.11-7.4-16.5-16.49c.6-8.93,5.62-16.93,14.72-16.5C494.13,427.21,504.14,434.21,503.06,443.26Z"/>
+  </g>
+  
+  <g class="dustRed">
+  	<circle cx="393" cy="262" r="1"/>
+  	<circle cx="399" cy="255" r="1"/>
+  	<circle cx="403" cy="267" r="1"/>
+  	<circle cx="388" cy="267" r="1"/>
+  	<rect x="394" y="255" width="2" height="2"/>
+  	<rect x="396" y="266" width="2" height="2"/>
+  	<rect x="397" y="259" width="2" height="2"/>
+  	<rect x="389" y="261" width="2" height="2"/>
+  </g>
+  <g class="dustBlue">
+  	<circle cx="487" cy="451" r="1"/>
+  	<circle cx="479" cy="451" r="1"/>
+  	<rect x="494" y="442" width="2" height="2"/>
+  	<rect x="490" y="447" width="2" height="2"/>
+  	<rect x="481" y="444" width="2" height="2"/>
+  	<rect x="487" y="439" width="2" height="2"/>
+  </g>
+  
+  
+  <rect class="sc-world-10" width="654" height="645"/>
+
+</svg>

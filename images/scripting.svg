@@ -1,0 +1,470 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="654" viewBox="0 0 654 352">
+  <defs>
+    <style>
+      .sc-scripting-1, .sc-scripting-10, .sc-scripting-11, .sc-scripting-12, .sc-scripting-13, .sc-scripting-14, .sc-scripting-15, .sc-scripting-17, .sc-scripting-2, .sc-scripting-3, .sc-scripting-4, .sc-scripting-5, .sc-scripting-6, .sc-scripting-7 {
+        fill: none;
+      }
+
+      .sc-scripting-1, .sc-scripting-3, .sc-scripting-4 {
+        stroke: #7b90d4;
+      }
+
+      .sc-scripting-1, .sc-scripting-13, .sc-scripting-2, .sc-scripting-3, .sc-scripting-4, .sc-scripting-5, .sc-scripting-6, .sc-scripting-7 {
+        stroke-linecap: round;
+      }
+
+      .sc-scripting-1, .sc-scripting-10, .sc-scripting-11, .sc-scripting-12, .sc-scripting-13, .sc-scripting-14, .sc-scripting-2, .sc-scripting-3, .sc-scripting-4, .sc-scripting-5, .sc-scripting-6, .sc-scripting-7 {
+        stroke-miterlimit: 10;
+      }
+
+      .sc-scripting-1 {
+        stroke-width: 15px;
+        opacity: 0.4;
+      }
+
+      .sc-scripting-2, .sc-scripting-5, .sc-scripting-6, .sc-scripting-7 {
+        stroke: #eaedff;
+      }
+
+      .sc-scripting-14, .sc-scripting-2, .sc-scripting-5, .sc-scripting-6 {
+        stroke-width: 2px;
+      }
+
+      .sc-scripting-2 {
+        opacity: 0.3;
+      }
+
+      .sc-scripting-3 {
+        stroke-width: 5px;
+      }
+
+      .sc-scripting-4 {
+        stroke-width: 16px;
+      }
+
+      .sc-scripting-5, .sc-scripting-9 {
+        opacity: 0.5;
+      }
+
+      .sc-scripting-6 {
+        opacity: 0.6;
+      }
+
+      .sc-scripting-7 {
+        stroke-width: 10px;
+        opacity: 0.6;
+      }
+
+      .sc-scripting-8 {
+        opacity: 0.3;
+      }
+
+      .sc-scripting-10, .sc-scripting-11, .sc-scripting-12, .sc-scripting-13, .sc-scripting-14 {
+        stroke: #8597ff;
+      }
+
+      .sc-scripting-10 {
+        stroke-dasharray: 11.93 11.93;
+      }
+
+      .sc-scripting-12 {
+        stroke-dasharray: 3;
+        opacity: 0.4;
+      }
+
+      .sc-scripting-14 {
+        opacity: 0.5 ;
+      }
+
+      .sc-scripting-15 {
+        opacity: 0.1;
+      }
+
+      .sc-scripting-16, .sc-scripting-18 {
+        fill: #ff7378;
+      }
+
+      .sc-scripting-16 {
+        opacity: 0.1;
+      }
+
+		
+		
+:root {
+  --linePathRed_path1: "M88.5,74c0,0,12.3,1.4,19.5-1.1c49.4-17.2,81.9-5.5,130.3-6.8c41.8-1.1,63.3-15.3,98.7-13.9C382.6,54,390.6,68,462.5,72.9c11,0.8,42.2,1.1,42.2,1.1";
+  --linePathRed_path2: "M88.5,74c0,0,12-1.9,19.5-1.1c53.7,5.6,75.7,7.9,124.2,6.6c46.1-1.2,68.1,5.3,108.2,6.9c45.5,1.8,60.8-11.4,122.1-13.5c11-0.4,42.2,1.1,42.2,1.1";
+	
+  
+  --redElepsShadow_1: "M54.6,54c-7.4,7.2-14.5,10.2-28.3,0c-6.8-6.8-8.1-24.7,0-28.3c10.3-3.5,21.7-9.9,28.3,0C61.5,39.6,62.9,45.8,54.6,54z";
+  --redElepsShadow_2: "M39.9,52.7c-9.6-8.8-15.8,6.6-22-1.3c9.9-10.1,11.6-17.7,22-28.1c10.4,10.1,14.6,18.8,23.2,28.1C55.4,59.3,48.8,43.8,39.9,52.7z";
+  --redElepsShadow_3: "M58.3,58.2c-13,0.6-25.5,1.1-35.5,0c-0.2-14.1,0-20.7,0-35.5c10.4-0.7,22.8-0.5,35.5,0C58.3,33.8,58.5,48.3,58.3,58.2z";
+	
+	
+  --wrapRed-subRed1: "M40.54,2.58a37.93,37.93,0,0,1,0,75.86h0c-20.95,0,4.25-17,4.25-37.93S19.59,2.58,40.54,2.58Z";
+  --wrapRed-subRed2: "M77.53,57.13A40.5,40.5,0,1,1,3.61,24C12.76,3.57,18.3,35.55,38.71,44.7S86.71,36.72,77.53,57.13Z";
+}
+
+#road, .wrapRed g{
+	animation: opacityTop 2s linear 1s forwards;
+	opacity: 0
+}
+@keyframes opacityTop{
+	0{
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+
+.wrapRed{
+	offset-path: path(var(--linePathRed_path1));
+  	animation: 
+  	  wrapRed_moveIt 9s 0s 5 ease-in-out, 
+  	  wrapRed_changeD 9s 0s 5 ease-in-out;
+}
+@keyframes wrapRed_moveIt {
+  100% {
+    offset-distance: 100%;
+	
+  }
+}
+@keyframes wrapRed_changeD {
+  50% {
+    offset-path: path(var(--linePathRed_path2));
+  }
+}
+
+.wrapRed g{
+	transform: translate(-20px, -20px);
+}
+
+#redElepsShadow{
+	d: path(var(--redElepsShadow_1));
+  	animation: redElepsShadow 9s 0s 5 ease-in;
+	opacity: 0;
+}
+@keyframes redElepsShadow {
+	0%{
+		opacity: 0;
+		transform: scale(0.5);
+		transform-origin: center;
+		transform-box: fill-box;
+	}
+	10%{
+		opacity: 1;
+		transform: scale(1);
+	}
+  	50% {
+  	    d: path(var(--redElepsShadow_2));
+  	}
+  	95%{
+  		opacity: 1;
+		transform: scale(1)
+  	}
+  	100% {
+  	    d: path(var(--redElepsShadow_3));
+		opacity: 0;
+		transform: scale(1.5);
+		transform-origin: center;
+		transform-box: fill-box;	
+  	}
+}
+.wrapRed g g:nth-child(2n+1),
+.wrapRed g g:nth-child(2n+2){
+	animation: red_opacity 9s linear 0s 5;
+}
+@keyframes red_opacity{
+	0%,100%{
+		opacity: 0;
+	}
+	5%,95%{
+		opacity: 1;
+	}
+}
+.wrapRed g g:nth-child(2n+1) path{
+	animation: red 6s linear 0s 4;
+	transform-origin: 6.2% 11.5%;
+	d: path(var(--wrapRed-subRed1));
+}
+
+.wrapRed g g:nth-child(2n+2) path{
+	animation: red 16s linear 0s 3;
+	transform-origin: 6.2% 11.5%;
+	d: path(var(--wrapRed-subRed2));
+}
+@keyframes red{
+	50%{
+		transform: rotate(360deg) scale(.8)
+	}
+	100%{
+		transform: rotate(360deg) scale(1);
+	}
+}
+
+.text line{
+	animation: line 0.8s ease forwards;
+	transform-box: fill-box;
+	transform-origin: left;
+	opacity: 0;
+}
+
+.text line:nth-child(7n+1){
+	animation-delay: 0s;	
+}
+.text line:nth-child(7n+2){
+	animation: line_dim 0.8s linear 0.7s forwards;
+}
+.text line:nth-child(7n+3){
+	animation-delay: 1.4s;
+}
+.text line:nth-child(7n+4){
+	animation-delay: 2s;
+}
+.text line:nth-child(7n+5){
+	animation: line_bright 0.8s linear 2.6s forwards;
+}
+.text line:nth-child(7n+6){
+	animation: line 0.8s ease 3.3s forwards, last_lines 5s linear 8s 6;
+}
+.text line:nth-child(7n+7){
+	animation: line 0.8s ease 4s forwards, last_lines 5s linear 5.5s 6;
+}
+
+@keyframes line{
+	0%,9%{
+		transform: rotateY(-90deg);
+		opacity: 0;
+	}
+	10%,29%{
+		transform: rotateY(-72deg);
+	}
+	30%,49%{
+		transform: rotateY(-54deg);
+	}
+	50%,69%{
+		transform: rotateY(-36deg);
+	}
+	70%,89%{
+		transform: rotateY(-18deg);
+		opacity: .6;
+	}
+	100%{
+		opacity: .6;
+	}
+}
+@keyframes line_bright{
+	0%,9%{
+		transform: rotateY(-90deg);
+		opacity: 0;
+	}
+	10%,29%{
+		transform: rotateY(-72deg);
+	}
+	30%,49%{
+		transform: rotateY(-54deg);
+	}
+	50%,69%{
+		transform: rotateY(-36deg);
+	}
+	70%,89%{
+		transform: rotateY(-18deg);
+		opacity: 1;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+@keyframes line_dim{
+	0%,9%{
+		transform: rotateY(-90deg);
+		opacity: 0;
+	}
+	10%,29%{
+		transform: rotateY(-72deg);
+	}
+	30%,49%{
+		transform: rotateY(-54deg);
+	}
+	50%,69%{
+		transform: rotateY(-36deg);
+	}
+	70%,89%{
+		transform: rotateY(-18deg);
+		opacity: .3;
+	}
+	100%{
+		opacity: .3;
+	}
+}
+@keyframes last_lines{
+	2.5%{
+		opacity: 0;
+		transform: rotateY(0deg);
+	}
+	2.6%{
+		opacity: 0;
+		transform: rotateY(-90deg);
+	}
+	3%,7%{
+		transform: rotateY(-72deg);
+	}
+	7.5%,12%{
+		transform: rotateY(-54deg);
+	}
+	12.5%,17%{
+		transform: rotateY(-36deg);
+	}
+	17.5%,22%{
+		transform: rotateY(-18deg);
+		opacity: .6;
+	}
+	25%,100%{
+		opacity: .6;
+	}
+}
+
+
+	
+	
+    </style>
+    
+    
+     <path id="redElepsShadow" class="sc-scripting-18" d="M54.6,54c-7.4,7.2-14.5,10.2-28.3,0c-6.8-6.8-8.1-24.7,0-28.3c10.3-3.5,21.7-9.9,28.3,0C61.5,39.6,62.9,45.8,54.6,54z"/>
+     
+     <filter id="filter_redElepsShadow" x="-58.7%" y="-57.8%" width="217.4%" height="215.5%" filterUnits="objectBoundingBox">
+     	<feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+     	<feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+     	<feColorMatrix values="0 0 0 0 1   0 0 0 0 0.450980392   0 0 0 0 0.474509804  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+     </filter>
+     
+     
+     
+     
+     <path id="lineShadow" class="sc-scripting-11">
+      	<animate
+      		attributeName="d"
+            dur="9s"
+            repeatCount="6"
+            fill="freeze" 
+            values="M108,72.9c49.8-17.2,82.5-5.5,131.3-6.8c42.1-1.1,63.8-15.3,99.5-13.9C384.6,54,392.6,68,465.1,72.9;
+            
+            M108,72.9c54.1,5.6,76.3,7.9,125.1,6.6c46.5-1.2,68.6,5.3,109,6.9c45.8,1.8,61.2-11.4,123-13.5;
+            
+            M108,72.9c49.8-17.2,82.5-5.5,131.3-6.8c42.1-1.1,63.8-15.3,99.5-13.9C384.6,54,392.6,68,465.1,72.9">
+      	</animate>
+      </path>
+      
+     
+     <filter id="filter_lineShadow" x="-1.8%" y="-31.4%" width="103.6%" height="162.7%" filterUnits="objectBoundingBox">
+     	<feMorphology radius="0.9" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+     	<feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+     	<feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+     	<feOffset dx="0" dy="0" in="shadowInner" result="shadowInner"></feOffset>
+     	<feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+     	<feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+     	<feColorMatrix values="0 0 0 0 0.350714173   0 0 0 0 0.449757774   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+     </filter>
+      
+     
+     <filter id="filter_groupLine" x="-14.9%" y="-64.6%" width="129.9%" height="230.0%" filterUnits="objectBoundingBox" >
+     	<feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+     	<feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+     	<feColorMatrix values="0 0 0 0 0.478896836   0 0 0 0 0.535649147   0 0 0 0 0.850939764  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+     	<feMerge>
+     		<feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+     		<feMergeNode in="SourceGraphic"></feMergeNode>
+     	</feMerge>
+     </filter>
+     
+     
+  </defs>
+  
+  
+  <g class="text" filter="url(#filter_groupLine)">
+    <line class="sc-scripting-1" x1="78.28" y1="174" x2="462.28" y2="174"/>
+    <line class="sc-scripting-2" x1="71.28" y1="238.91" x2="228.19" y2="238.91"/>
+    <line class="sc-scripting-7" x1="252.29" y1="238.91" x2="409.2" y2="238.91"/>
+    <line class="sc-scripting-6" x1="435.11" y1="238.91" x2="592.02" y2="238.91"/>
+    <line class="sc-scripting-3" x1="73.28" y1="303.26" x2="302.19" y2="303.26"/>
+    <line class="sc-scripting-5" x1="331.75" y1="303.26" x2="415.66" y2="303.26"/>
+    <line class="sc-scripting-4" x1="453.16" y1="303.26" x2="561.07" y2="303.26"/>
+  </g>
+  
+  <g id="road">
+    <g class="sc-scripting-8">
+      
+      <circle class="sc-scripting-10" cx="88" cy="73.5" r="21"/>
+            
+     <g id="Path">
+      	<use fill="black" fill-opacity="1" filter="url(#filter_lineShadow)" xlink:href="#lineShadow"></use>
+      	<use stroke="#8597FF" stroke-width="1" xlink:href="#lineShadow"></use>
+      </g>
+      <path class="sc-scripting-12">
+      	<animate
+      		attributeNade="d"
+      		dur="8s"
+            repeatCount="4"	
+            fill="freeze" values="M108.22,72.91c37,0,23.13,19.47,72,18.21C222.5,90,295,72.88,330.83,72.91c43.23,0,63.47-1.51,135.36,0;
+            
+            M108.22,72.91c37,0,39.42-1.76,88.29-3,42.28-1.12,103.33-5.78,139.16-5.75,43.23,0,58.63,7.26,130.52,8.77;
+           	M108.22,72.91c37,0,23.13,19.47,72,18.21C222.5,90,295,72.88,330.83,72.91c43.23,0,63.47-1.51,135.36,0">
+      	</animate>
+	  </path>
+      
+      <path class="sc-scripting-12">
+      	<animate
+      		attributeName="d"
+            dur="8s"
+            repeatCount="4"
+            fill="freeze" 
+            values="M108.22,72.91c49.71-14.06,82.69-5.49,131.6-6.75,42.24-1.09,63.92-15.32,99.73-13.94C385.5,54,393.85,64.84,466.19,72.91;
+            
+            M108.22,72.91c52.4,5.89,69.69,8,118.6,6.75,42.24-1.09,80.23,5.4,116,6.78,44.9.77,52-8.62,123.33-13.53;
+            
+            M108.22,72.91c49.71-14.06,82.69-5.49,131.6-6.75,42.24-1.09,63.92-15.32,99.73-13.94C385.5,54,393.85,64.84,466.19,72.91">
+      	</animate>
+      </path>
+      <path class="sc-scripting-12">
+      	<animate
+      		attributeName="d"
+            dur="8s"
+            repeatCount="4"
+            fill="freeze" 
+            values="M108.22,72.91c14.43-1.74,18.47-2.29,45.9-3,40-1,48.6,35,108.32,36.16,56.12,1.1,127.74-25,203.75-33.2;
+            
+            M108.22,72.91c14.43-1.74,50.4-15.24,77.83-15.95,40-1,41.44-7.44,101.16-6.28,56.11,1.1,103,30.39,179,22.19;
+            
+            M108.22,72.91c14.43-1.74,18.47-2.29,45.9-3,40-1,48.6,35,108.32,36.16,56.12,1.1,127.74-25,203.75-33.2">
+      	</animate>
+      </path>
+      
+      
+      <polyline class="sc-scripting-13" points="455.47 62.74 465.76 72.94 455.64 83.15"/>
+    </g>
+    <rect class="sc-scripting-14" x="486" y="55" width="40" height="40"/>
+  </g>
+
+  <g class="wrapRed">
+      <g>
+        <g>
+          <circle class="sc-scripting-15" cx="40.54" cy="40.54" r="37.93"/>
+          <path class="sc-scripting-16"/>
+        </g>
+        <g>
+          <circle class="sc-scripting-15" cx="40.54" cy="40.54" r="40.54"/>
+          <path class="sc-scripting-16"/>
+        </g>
+        <g>
+          <circle class="sc-scripting-17" cx="40.54" cy="40.54" r="20"/>
+          
+		  <use fill="black" fill-opacity="1" filter="url(#filter_redElepsShadow)" xlink:href="#redElepsShadow"></use>
+  	      <use fill="#FF7379" xlink:href="#redElepsShadow"></use>
+         
+        </g>
+      </g>
+
+  </g>
+  <rect class="sc-scripting-17" width="654" height="352"/>
+      
+</svg>

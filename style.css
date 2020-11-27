@@ -1,0 +1,98 @@
+body{
+	background-color: #191b20;
+}
+
+
+.logo{
+	display: block;
+	width: 50%;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.colony{
+    position: absolute;
+    top:250px;
+    display: block;
+    width: 50%;
+    margin-left: 25%;
+}
+
+h1{
+    width: 100%;
+    box-sizing: border-box;
+    color: #EAEDFF;
+    font-family: Calibri;
+    font-size: 30px;
+    letter-spacing: 3.27px;
+    line-height: 35px;
+    text-align: center;    
+}
+
+p{
+    width: 100%;
+    box-sizing: border-box;
+    color: #EAEDFF;
+    font-family: Calibri;
+    font-size: 30px;
+    letter-spacing: 3.27px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.title{
+	position: absolute;
+    top: 100px;
+
+}
+.meaning{
+	position: absolute;
+    top: 700px;
+
+}
+
+.scripting{
+    top: 900px;
+    position:absolute;
+    width:50%;
+
+}
+
+.scriptingImg{
+    position: absolute;
+    top:1000px;
+    display: block;
+    margin-left:50%;
+    color: #EAEDFF;
+    border-left:4px dotted;   
+}
+
+.world{
+    top: 1500px;
+    position:absolute;
+    width:50%;
+    margin-left: 45%;
+}
+
+.worldImg{
+    position: absolute;
+    top:1500px;
+    display: block;
+    color: #EAEDFF;
+    border-right:4px dotted;   
+}
+
+.sandbox{
+    top: 2300px;
+    position:absolute;
+    width:50%;  
+}
+
+.sandboxImg{
+    position: absolute;
+    top:2300px;
+    display: block;
+    margin-left:50%;
+    color: #EAEDFF;
+    border-left:4px dotted;      
+}
